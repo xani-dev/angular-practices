@@ -9,7 +9,7 @@
         </div>
         <div class="price">
           <div
-            [ngStyle]="{'color':product.discount>0?'red':''}"
+            [ngStyle]="{'color':product.discount>0?'lightgray':''}"
             [ngClass]="{ strikethrough: product.discount > 0 }"
           >
             {{ product.price | currency : "USD" }}

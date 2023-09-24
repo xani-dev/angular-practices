@@ -63,7 +63,8 @@
               "browserTarget": "tpd-robot-shop:build:production"
             },
             "development": {
-              "browserTarget": "tpd-robot-shop:build:development"
+              "browserTarget": "tpd-robot-shop:build:development",
+              "proxyConfig": "src/proxy.config.json"
             }
           },
           "defaultConfiguration": "development"
